@@ -1,0 +1,13 @@
+{
+  "name": "pushnotification",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "apn": "^1.7.5",
+    "inbox": "^1.1.59",
+    "node-schedule": "^1.1.0"
+  }
+}

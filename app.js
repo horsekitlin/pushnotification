@@ -23,11 +23,9 @@ client.on("connect", function(){
 			if(count === 0){
 				count = info.count;
 			}else if(info.count > count){
-				console.log(count);
 				var newcount = info.count - count;
 				count = info.count;
-
-				notify.alert = "您有" + newcount + "封信";;
+				notify.alert= "您有新信件";
 				new apn.Connection({
 					cert:'cert.pem',
 				       key:'key.pem',
